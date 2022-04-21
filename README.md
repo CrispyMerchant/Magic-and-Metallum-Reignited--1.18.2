@@ -3,22 +3,26 @@
 <h2>
 A port of the 1.16.5 pack of the same name.
 </h2>
+
+<p>
 Recently I've started working on a newer version of my previous pack. It was getting a little hectic code wise so I thought it would be best for me to clean up my last mess a little and start from fresh here.
-<h2><br>
+</p>
+
+<h2>
 Now the interesting(ish) stuff!
 </h2>
 
 <p>
 Most of what I was focusing on in the previous pack is still of concern here. I wan't to provide an experience which those of any playstyle can enjoy, wether you like to explore, fight, or delve into technology or wizardry, this pack should scratch any of those itches.
-</p><br><br>
+</p>
 
 <h2>
-Current works in progress:
+Current tasks:
 </h2>
 
 <p>
 I am currently implementing the first iteration of this pack, this includes testing a lot of initial mods I'm planning on having in the pack as well as removing a few that may no longer fit. If you'd like to see anything added, please contact me.
-</p><br><br>
+</p>
 
 <h2>
 Current Modlist:
