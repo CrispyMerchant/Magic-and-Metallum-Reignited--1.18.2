@@ -1,0 +1,3 @@
+Changelog as of beta v1.0
+
+Initial commit to main branch, starting testing for any initial issues that may come up as I start all this up.
