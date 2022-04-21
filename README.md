@@ -13,7 +13,7 @@ Now the interesting(ish) stuff!
 </h2>
 
 <p>
-Most of what I was focusing on in the previous pack is still of concern here. I wan't to provide an experience which those of any playstyle can enjoy, wether you like to explore, fight, or delve into technology or wizardry, this pack should scratch any of those itches.
+Most of what I was focusing on in the previous pack is still of concern here. I want to provide an experience which those of any playstyle can enjoy, wether you like to explore, fight, or delve into technology or wizardry, this pack should scratch any of those itches.
 </p>
 
 <h2>
