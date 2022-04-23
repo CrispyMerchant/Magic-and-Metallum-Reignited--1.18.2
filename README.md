@@ -1,7 +1,7 @@
-# Magic-and-Metallum-Reignited--1.18.2
+# Magic and Metallum Reignited 1.18.2
 
 <h2>
-A port of the 1.16.5 pack of the same name.
+About:
 </h2>
 
 <p>
