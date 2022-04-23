@@ -29,7 +29,7 @@ Current Modlist:
 </h2>
 
 <h5>
-(as of Beta v1.0)<br><br>
+(as of Beta v1.0.1)<br><br>
 </h5>
 
 <div id="list1">
