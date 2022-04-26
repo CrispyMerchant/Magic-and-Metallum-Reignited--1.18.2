@@ -20,7 +20,7 @@
 	playFallSound = true
 	#Sprint speed boost; set to 0.0 to disable
 	#Range: 0.0 ~ 5.0
-	sprintSpeedBoost = 0.0
+	sprintSpeedBoost = 0.5
 	#Walk up steps even while airborne, also jump over fences
 	stepAssist = true
 	#Allows you to jump in mid-air
