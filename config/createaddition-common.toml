@@ -102,10 +102,10 @@
 
 #Tesla Coil
 [tesla_coil]
-	#Charger max input in FE/t (Energy transfer).
+	#Tesla Coil max input in FE/t (Energy transfer).
 	#Range: > 0
 	tesla_coil_max_input = 8192
-	#Charger charge rate in FE/t.
+	#Tesla Coil charge rate in FE/t.
 	#Range: > 0
 	tesla_coil_charge_rate = 8192
 	#Charger internal capacity in FE.
@@ -135,6 +135,9 @@
 	#The chance that a AE2 Certus Quartz will be turned into Charged Certus Quartz for every tick.
 	#Range: 0.0 ~ 1.0
 	certus_quartz_charge_chance = 0.96
+	#Tesla Coil charge rate in FE/t for recipes.
+	#Range: > 0
+	tesla_coil_recipe_charge_rate = 1024
 
 #Misc
 [misc]

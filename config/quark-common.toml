@@ -561,6 +561,7 @@
 	"Big Stone Clusters" = true
 	"Big Dungeon" = true
 	"Azalea Wood" = true
+	"No More Lava Pockets" = true
 
 	[world.spiral_spires]
 		Rarity = 200
@@ -1297,6 +1298,7 @@
 					"Is Blacklist" = true
 
 	[mobs.shiba]
+		"Ignore Areas With Skylight" = false
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
