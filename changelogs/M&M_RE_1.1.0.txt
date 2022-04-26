@@ -1,0 +1,90 @@
+=================================================================
+Magic and Metallum Beta v1.0.2 --> Magic_and_Metallum_Beta v1.0.5
+=================================================================
+
+Added:
+* Default Options
+* FPS Reducer
+* Lazy DataFixerUpper(LazyDFU) [FORGE]
+* Rubidium
+
+Updated:
+	Chisels & Bits - For Forge (ChiselsBits-forge-1.18.2-1.2.84-universal.jar --> ChiselsBits-forge-1.18.2-1.2.85-universal.jar):
+		ChiselsBits-forge-1.18.2-1.2.85-universal.jar:
+			Chisels & Bits Changelog
+			Version: 1.2.85
+			Changes:
+			* Fix the notification tooltip showing up, preparing for handling custom block states and models using a variant system.
+
+	CraftTweaker (CraftTweaker-forge-1.18.2-9.1.110.jar --> CraftTweaker-forge-1.18.2-9.1.114.jar):
+		CraftTweaker-forge-1.18.2-9.1.114.jar:
+			Current version: 9.1.114
+			* [Properly put and remove null interactions](https://github.com/CraftTweaker/CraftTweaker/commit/d7228b0b713cccca7e603e0f8d7986f7478a542a) - Jared - Mon Apr 25 17:45:35 2022
+			* [Add cauldron interaction support](https://github.com/CraftTweaker/CraftTweaker/commit/cfce8073fa25abad024b2efb61f1ec4a418184b9) - Jared - Mon Apr 25 17:10:12 2022
+			* [add IItemStack#hoverName](https://github.com/CraftTweaker/CraftTweaker/commit/6a06ab4f936991e13b004dd1469642951ec87430) - Jared - Mon Apr 25 16:45:04 2022
+			* [Add loot table rolling support. Close #1263 (#1477)](https://github.com/CraftTweaker/CraftTweaker/commit/6b700e1cda4b0950f03d3f8213af9b463b03dc68) - Jared - Mon Apr 25 12:04:22 2022
+			(343 more lines)
+
+		CraftTweaker-fabric-1.18.2-9.1.114.jar:
+			Current version: 9.1.114
+			* [Properly put and remove null interactions](https://github.com/CraftTweaker/CraftTweaker/commit/d7228b0b713cccca7e603e0f8d7986f7478a542a) - Jared - Mon Apr 25 17:45:35 2022
+			* [Add cauldron interaction support](https://github.com/CraftTweaker/CraftTweaker/commit/cfce8073fa25abad024b2efb61f1ec4a418184b9) - Jared - Mon Apr 25 17:10:12 2022
+			* [add IItemStack#hoverName](https://github.com/CraftTweaker/CraftTweaker/commit/6a06ab4f936991e13b004dd1469642951ec87430) - Jared - Mon Apr 25 16:45:04 2022
+			* [Add loot table rolling support. Close #1263 (#1477)](https://github.com/CraftTweaker/CraftTweaker/commit/6b700e1cda4b0950f03d3f8213af9b463b03dc68) - Jared - Mon Apr 25 12:04:22 2022
+			(343 more lines)
+
+		CraftTweaker-forge-1.18.2-9.1.113.jar:
+			Current version: 9.1.113
+			* [Add cauldron interaction support](https://github.com/CraftTweaker/CraftTweaker/commit/cfce8073fa25abad024b2efb61f1ec4a418184b9) - Jared - Mon Apr 25 17:10:12 2022
+			* [add IItemStack#hoverName](https://github.com/CraftTweaker/CraftTweaker/commit/6a06ab4f936991e13b004dd1469642951ec87430) - Jared - Mon Apr 25 16:45:04 2022
+			* [Add loot table rolling support. Close #1263 (#1477)](https://github.com/CraftTweaker/CraftTweaker/commit/6b700e1cda4b0950f03d3f8213af9b463b03dc68) - Jared - Mon Apr 25 12:04:22 2022
+			* [make setFood accept null](https://github.com/CraftTweaker/CraftTweaker/commit/9f3c0830e9c44da5c2850dd0333bde18bb79fb9e) - Jared - Sun Apr 24 06:43:36 2022
+			(342 more lines)
+
+		CraftTweaker-fabric-1.18.2-9.1.113.jar:
+			Current version: 9.1.113
+			* [Add cauldron interaction support](https://github.com/CraftTweaker/CraftTweaker/commit/cfce8073fa25abad024b2efb61f1ec4a418184b9) - Jared - Mon Apr 25 17:10:12 2022
+			* [add IItemStack#hoverName](https://github.com/CraftTweaker/CraftTweaker/commit/6a06ab4f936991e13b004dd1469642951ec87430) - Jared - Mon Apr 25 16:45:04 2022
+			* [Add loot table rolling support. Close #1263 (#1477)](https://github.com/CraftTweaker/CraftTweaker/commit/6b700e1cda4b0950f03d3f8213af9b463b03dc68) - Jared - Mon Apr 25 12:04:22 2022
+			* [make setFood accept null](https://github.com/CraftTweaker/CraftTweaker/commit/9f3c0830e9c44da5c2850dd0333bde18bb79fb9e) - Jared - Sun Apr 24 06:43:36 2022
+			(342 more lines)
+
+		CraftTweaker-forge-1.18.2-9.1.112.jar:
+			Current version: 9.1.112
+			* [add IItemStack#hoverName](https://github.com/CraftTweaker/CraftTweaker/commit/6a06ab4f936991e13b004dd1469642951ec87430) - Jared - Mon Apr 25 16:45:04 2022
+			* [Add loot table rolling support. Close #1263 (#1477)](https://github.com/CraftTweaker/CraftTweaker/commit/6b700e1cda4b0950f03d3f8213af9b463b03dc68) - Jared - Mon Apr 25 12:04:22 2022
+			* [make setFood accept null](https://github.com/CraftTweaker/CraftTweaker/commit/9f3c0830e9c44da5c2850dd0333bde18bb79fb9e) - Jared - Sun Apr 24 06:43:36 2022
+			* [Small code cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/7710e9f86e815d85f88686f09930d7b3a74ee484) - Jared - Sat Apr 23 04:39:24 2022
+			(341 more lines)
+
+		3 more entries
+
+	Kotlin for Forge (Kotlin for Forge 3.3.1 --> Kotlin for Forge 3.3.2):
+		Kotlin for Forge 3.3.2:
+			* Bundle JetBrains annotations 23.0.0 again because Forge does not bundle it in production
+
+	MineColonies (minecolonies-1.18.2-1.0.659-ALPHA.jar --> minecolonies-1.18.2-1.0.662-ALPHA.jar):
+		minecolonies-1.18.2-1.0.662-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 1.18.2-1.0.662-ALPHA
+			Required Dependencies:
+			* Structurize: 1.18.2-1.0.389-RELEASE (exactly)
+			* Multi-Piston: 1.18.2-1.2.3-ALPHA (or above)
+			(8 more lines)
+
+	Quark (Quark-3.2-350.jar --> Quark-3.2-352.jar):
+		Quark-3.2-352.jar:
+			* Fixed server crash
+			* Improved scaffolding detection for ladder improvements
+
+		Quark-3.2-351.jar:
+			Fix sus conservation making servers not accept client connections
+
+	Valhelsia Core ([Forge] Valhelsia Core - 0.3.0 --> [Forge] Valhelsia Core - 0.3.1):
+		[Forge] Valhelsia Core - 0.3.1:
+			No changelog available.
+
+		[Fabric] Valhelsia Core - 0.3.0:
+			No changelog available.
+
+Generated using ChangelogGenerator 2.0.0-pre10: https://github.com/TheRandomLabs/ChangelogGenerator
