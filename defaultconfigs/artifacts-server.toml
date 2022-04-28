@@ -66,7 +66,7 @@
 		#Affects how much damage the player can take while wearing the crystal heart before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 3000
+		durability = 2000
 		#The amount additional health applied to the wearer
 		#Range: > 0
 		health_bonus = 10
@@ -343,7 +343,7 @@
 		#Affects how many enemies can be hit using the vampiric glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 2000
 		#The ratio of dealt damage absorbed by the wearer
 		#Range: 0.0 ~ Infinity
 		absorption_ratio = 0.2
