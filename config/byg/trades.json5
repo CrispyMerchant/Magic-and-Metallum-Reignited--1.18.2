@@ -8,110 +8,92 @@ JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mr
 to make editing this file much easier.
 */
 {
-	// Whether this file appends villager/wandering trader trades.
-	"enabled": true,
 	// Trades for a given villager profession. Trade levels are in the range of 1-5
 	"trades_by_profession": {
 		"byg:forager": {
 			"1": [
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "minecraft:red_mushroom",
 						"max_uses": 12,
-						"number_of_items": 10,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				},
-				{
-					"config": {
-						"emerald_cost": 1,
-						"item": "minecraft:brown_mushroom",
-						"max_uses": 12,
-						"number_of_items": 10,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				},
-				{
-					"config": {
-						"emerald_cost": 1,
-						"item": "byg:green_mushroom",
-						"max_uses": 12,
-						"number_of_items": 10,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				}
-			],
-			"2": [
-				{
-					"config": {
-						"emerald_cost": 1,
-						"item": "byg:wood_blewit",
-						"max_uses": 12,
-						"number_of_items": 8,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				},
-				{
-					"config": {
-						"emerald_cost": 1,
-						"item": "byg:white_puffball_cap",
-						"max_uses": 12,
-						"number_of_items": 8,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				}
-			],
-			"3": [
-				{
-					"config": {
-						"cost": 5,
-						"item": "byg:white_puffball_spores",
-						"max_uses": 4,
 						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
+						"item": "minecraft:brown_mushroom",
+						"max_uses": 12,
+						"villager_xp": 2
+					},
+					"type": "byg:emerald_for_items"
+				},
+				{
+					"config": {
+						"cost": 10,
+						"item": "byg:green_mushroom",
+						"max_uses": 12,
+						"villager_xp": 2
+					},
+					"type": "byg:emerald_for_items"
+				}
+			],
+			"2": [
+				{
+					"config": {
+						"cost": 8,
+						"item": "byg:wood_blewit",
+						"max_uses": 12,
+						"villager_xp": 2
+					},
+					"type": "byg:emerald_for_items"
+				},
+				{
+					"config": {
+						"cost": 8,
+						"item": "byg:white_puffball_cap",
+						"max_uses": 12,
+						"villager_xp": 2
+					},
+					"type": "byg:emerald_for_items"
+				}
+			],
+			"3": [
+				{
+					"config": {
+						"emerald_cost": 4,
+						"item": "byg:white_puffball_spores",
+						"max_uses": 4,
+						"number_of_items": 5,
+						"villager_xp": 2
+					},
+					"type": "byg:items_for_emeralds"
+				},
+				{
+					"config": {
+						"cost": 10,
 						"item": "minecraft:crimson_fungus",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "minecraft:warped_fungus",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "byg:sythian_fungus",
 						"max_uses": 12,
-						"number_of_items": 10,
-						"villager_xp": 2
-					},
-					"type": "byg:items_for_emeralds"
-				},
-				{
-					"config": {
-						"cost": 9,
-						"item": "byg:witch_hazel_branch",
-						"max_uses": 4,
 						"villager_xp": 2
 					},
 					"type": "byg:emerald_for_items"
@@ -120,53 +102,52 @@ to make editing this file much easier.
 			"4": [
 				{
 					"config": {
-						"cost": 9,
+						"emerald_cost": 4,
 						"item": "byg:witch_hazel_branch",
 						"max_uses": 4,
+						"number_of_items": 9,
 						"villager_xp": 2
 					},
-					"type": "byg:emerald_for_items"
+					"type": "byg:items_for_emeralds"
 				},
 				{
 					"config": {
-						"cost": 1,
+						"emerald_cost": 10,
 						"item": "byg:witch_hazel_blossom",
 						"max_uses": 10,
+						"number_of_items": 1,
 						"villager_xp": 2
 					},
-					"type": "byg:emerald_for_items"
+					"type": "byg:items_for_emeralds"
 				}
 			],
 			"5": [
 				{
 					"config": {
-						"emerald_cost": 2,
+						"cost": 10,
 						"item": "byg:imparius_mushroom",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 2,
+						"cost": 10,
 						"item": "byg:shulkren_fungus",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 2,
+						"cost": 10,
 						"item": "byg:fungal_imparius",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				}
 			]
 		},
@@ -212,12 +193,13 @@ to make editing this file much easier.
 			"4": [
 				{
 					"config": {
-						"cost": 7,
+						"emerald_cost": 3,
 						"item": "byg:chain_plating",
 						"max_uses": 12,
+						"number_of_items": 7,
 						"villager_xp": 2
 					},
-					"type": "byg:emerald_for_items"
+					"type": "byg:items_for_emeralds"
 				}
 			],
 			"5": []
@@ -227,13 +209,12 @@ to make editing this file much easier.
 			"2": [
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "byg:blueberries",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				}
 			],
 			"3": [],
@@ -258,57 +239,52 @@ to make editing this file much easier.
 			"1": [
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 24,
 						"item": "byg:cattail_sprout",
 						"max_uses": 12,
-						"number_of_items": 24,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				}
 			],
 			"2": [
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "byg:baobab_fruit",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 16,
 						"item": "byg:aloe_vera",
 						"max_uses": 12,
-						"number_of_items": 16,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				},
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 24,
 						"item": "byg:green_apple",
 						"max_uses": 12,
-						"number_of_items": 24,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				}
 			],
 			"3": [
 				{
 					"config": {
-						"emerald_cost": 1,
+						"cost": 10,
 						"item": "byg:joshua_fruit",
 						"max_uses": 12,
-						"number_of_items": 10,
 						"villager_xp": 2
 					},
-					"type": "byg:items_for_emeralds"
+					"type": "byg:emerald_for_items"
 				}
 			],
 			"4": [
@@ -488,6 +464,8 @@ to make editing this file much easier.
 			"5": []
 		}
 	},
+	// Whether this file appends villager/wandering trader trades.
+	"visible": true,
 	// Trades for the wandering trader. Trades in "1" are "generic" trades. Trades appearing in "2" are "rare" trades.
 	"wandering_trader_trades": {
 		// Trades listed here are "generic" and a few(not only from these listed here but from other mods/vanilla also) are picked when a wandering trader spawns.
