@@ -2,9 +2,19 @@
   "biomes": [
     [
       {
-        "type": "REGISTRY_NAME",
+        "type": "BIOME_DICT",
         "negate": false,
-        "value": "minecraft:meadow"
+        "value": "overworld"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "plains"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "plateau"
       }
     ]
   ]

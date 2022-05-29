@@ -14,6 +14,6 @@
 
 	[performance.saving]
 		#performance.saving.thread-count.comment
-		#Range: 1 ~ 12
-		thread-count = 6
+		#Range: 1 ~ 8
+		thread-count = 4
 

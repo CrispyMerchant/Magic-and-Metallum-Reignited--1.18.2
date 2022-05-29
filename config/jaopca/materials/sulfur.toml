@@ -9,7 +9,15 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "dust"
+	modelType = "crystal"
 	#The color of this material.
-	color = 12298076
+	color = 14010737
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	ore_base = "#forge:cobblestone/normal"
 
