@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "CrispyMerchant",
+      "uniqueId": "d87f1591-46fb-4305-b578-b7cedf78545b"
+    },
+    "time": 1654818194070,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FpJEmJRNDJ"
+    }
+  }
+]

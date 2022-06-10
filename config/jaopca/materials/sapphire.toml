@@ -11,11 +11,7 @@
 	#The model type of the material.
 	modelType = "crystal"
 	#The color of this material.
-	color = 5665974
-
-[molten]
-	#The temperature of this molten fluid.
-	temperature = 1000
+	color = 7643089
 
 [create]
 	#The default byproduct material to output in Create's crushing.
@@ -24,4 +20,8 @@
 [mekanism]
 	#The default base to use in Mekanism's Combiner to recreate ores.
 	ore_base = "#forge:cobblestone/normal"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 

@@ -3,9 +3,9 @@
 	#The minimum chunk view distance allowed to use. Default: 4
 	#Range: 3 ~ 200
 	minChunkViewDist = 5
-	#The maximum chunk view distance allowed to use. Set to the max a player could benefit from. Default: 12
+	#The maximum chunk view distance allowed to use. Set to the max a player could benefit from. Default: 15
 	#Range: 1 ~ 200
-	maxChunkViewDist = 12
+	maxChunkViewDist = 15
 	#The minimum simulation distance allowed to use. Default: 4
 	#Range: 1 ~ 200
 	minSimulationDist = 4
@@ -17,7 +17,7 @@
 	meanAvgTickTime = 45
 	#The update frequency of average server tick time checks to update view distances. Default: 30sec
 	#Range: 1 ~ 1000
-	viewDistanceUpdateRate = 30
+	viewDistanceUpdateRate = 60
 	#Whether to adjust the simulation distance aswell, default: true.
 	adjustSimulationDistance = true
 	#Whether to output log messages for actions done. This can be helpful to balance the other settings nicely.

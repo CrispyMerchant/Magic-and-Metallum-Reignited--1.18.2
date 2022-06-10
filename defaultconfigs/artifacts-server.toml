@@ -24,7 +24,7 @@
 		#Affects how many times the player can jump with the bunny hoppers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Whether Bunny Hoppers should cancel fall damage
 		#Fall damage will still be reduced by the jump boost effect
 		should_cancel_fall_damage = true
@@ -43,7 +43,7 @@
 		#Affects how many times the player can double jump before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Affects double jump height while sprinting
 		#1 for no height bonus
 		#Range: 0.0 ~ Infinity
@@ -57,7 +57,7 @@
 		#Affects how many times the player can take damage with the cross necklace before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#The amount of additional ticks the wearer is invincible after being hit
 		#Range: > 0
 		invincibility_bonus = 20
@@ -75,7 +75,7 @@
 		#Affects how many blocks the player can break using the digging claws before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Mining speed bonus applied by digging claws
 		#Range: 0.0 ~ Infinity
 		mining_speed_bonus = 3.2
@@ -87,10 +87,10 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
-		cooldown = 300
+		cooldown = 400
 		#Time (in ticks) it takes to eat this item
 		#Range: > 0
 		use_duration = 24
@@ -99,10 +99,10 @@
 		#Affects how many times this item can be eaten before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#Cooldown (in ticks) before the item can be eaten again
 		#Range: > 0
-		cooldown = 300
+		cooldown = 400
 		#Time (in ticks) it takes to eat this item
 		#Range: > 0
 		use_duration = 24
@@ -111,7 +111,7 @@
 		#Affects how many enemies can be hit using the feral claws before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Attack speed bonus applied by feral claws
 		#Range: 0.0 ~ Infinity
 		attack_speed_bonus = 0.75
@@ -120,7 +120,7 @@
 		#Affects how many enemies can be hit using the fire gauntlet before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#Duration (equal to total fire damage) for which entities are set on fire
 		#Range: > 0
 		fire_duration = 8
@@ -150,7 +150,7 @@
 		#Affects how many enemies can be killed using the golden hook before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 10000
 		#The amount of extra experience (multiplied with total xp) entities should drop when killed by a player wearing the golden hook
 		#Range: 0.0 ~ Infinity
 		experience_bonus = 0.75
@@ -172,7 +172,7 @@
 		#Affects how many creepers the player can attack using the kitty slippers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 2000
 
 	[items.lucky_scarf]
 		#Affects how many blocks can be broken using the lucky scarf
@@ -187,13 +187,13 @@
 		#Affects how many seconds the night vision effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 6000
 
 	[items.novelty_drinking_hat]
 		#Affects how many items the player can drink or eat using the drinking hat before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 6000
 		#Drinking duration multiplier applied by the drinking hat
 		#Range: 0.0 ~ Infinity
 		drinking_duration_multiplier = 0.3
@@ -241,7 +241,7 @@
 		#Affects how many enemies can be hit using the pocket piston
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#The amount of extra knockback applied by the pocket piston
 		#Range: 0.0 ~ Infinity
 		knockback_bonus = 1.5
@@ -250,7 +250,7 @@
 		#Affects how many enemies can be hit using the power glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#The amount of extra attack damage applied by the power glove
 		#Range: > 0
 		attack_damage_bonus = 4
@@ -259,7 +259,7 @@
 		#Affects how many seconds the player can sprint using the running shoes
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 6000
 		#The amount of extra speed applied by the running shoes
 		#Range: 0.0 ~ Infinity
 		speed_multiplier = 0.4
@@ -268,7 +268,7 @@
 		#Affects how many seconds the invisibility effect should apply before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 6000
 
 	[items.shock_pendant]
 		#Affects how many times the pendant's effect can be applied before breaking
@@ -304,7 +304,7 @@
 		#Affects how many times the pendant's effect can be applied before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#Chance for the pendant to strike an attacker when the wearer is attacked
 		#Range: 0.0 ~ 1.0
 		strike_chance = 0.5
@@ -320,7 +320,7 @@
 		#Affects how many attacks can be blocked using the umbrella
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#Whether umbrellas can be used as a shield
 		is_shield = true
 
@@ -343,7 +343,7 @@
 		#Affects how many enemies can be hit using the vampiric glove
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 0
+		durability = 5000
 		#The ratio of dealt damage absorbed by the wearer
 		#Range: 0.0 ~ Infinity
 		absorption_ratio = 0.2

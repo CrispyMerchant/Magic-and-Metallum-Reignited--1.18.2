@@ -1,7 +1,4 @@
 {
-	"ftbteams": {
-		"my_team": true
-	},
 	"ftblibrary": {
 		"toggle.gamemode": true,
 		"toggle.rain": true,
@@ -10,8 +7,5 @@
 	},
 	"ftbessentials": {
 		"trash_can": true
-	},
-	"ftbchunks": {
-		"chunks": true
 	}
 }
